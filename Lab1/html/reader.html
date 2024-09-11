@@ -1,0 +1,34 @@
+<!-- 
+    NOTE: ChatGPT was utilized to generate most of the code. 
+    some modifications were made by myself, it's been a long while
+    since I've used Javascript, html, and css so I'm a bit rusty, and used my own
+    comments to help me understand the code better.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reader</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1>Reader Page</h1>
+
+    <!-- Display last retrieved time -->
+    <div id="lastRetrievedTime" style="text-align: right;"></div>
+
+    <!-- Container for displaying notes -->
+    <div id="notesDisplay"></div>
+
+    <!-- Back button -->
+    <a href="../index.html">
+        <button>Back to Home</button>
+    </a>
+
+    <script src="../lang/messages/en/user.js"></script>
+    <script src="../js/note.js"></script>
+    <script src="../js/reader.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+/* 
+    NOTE: ChatGPT was utilized to generate most of the code. 
+    some modifications were made by myself, it's been a long while
+    since I've used Javascript, html, and css so I'm a bit rusty, and used my own
+    comments to help me understand the code better.
+*/
+
+/* Style for the note container */
+.note-container {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9; /* Light background for the note */
+    border: 1px solid #ccc;  /* Border around the note */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Style for the textarea */
+.note-textarea {
+    width: 80%;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    resize: none;
+}
+
+/* Style for the remove button */
+.remove-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #ff4d4d;  /* Red background for the remove button */
+    color: white;  /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}

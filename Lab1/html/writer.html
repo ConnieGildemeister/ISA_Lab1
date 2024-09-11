@@ -1,0 +1,37 @@
+<!-- 
+    NOTE: ChatGPT was utilized to generate most of the code. 
+    some modifications were made by myself, it's been a long while
+    since I've used Javascript, html, and css so I'm a bit rusty, and used my own
+    comments to help me understand the code better.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writer</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1>Writer Page</h1>
+
+    <!-- Display last saved time -->
+    <div id="lastSavedTime" style="text-align: right;"></div>
+
+    <!-- Button to add new notes -->
+    <button id="addNoteButton">Add Note</button>
+
+    <!-- Container for textareas and remove buttons -->
+    <div id="notesContainer"></div>
+
+    <!-- Back button -->
+    <a href="../index.html">
+        <button>Back to Home</button>
+    </a>
+
+    <script src="../lang/messages/en/user.js"></script>
+    <script src="../js/note.js"></script>
+    <script src="../js//writer.js"></script>
+</body>
+</html>
